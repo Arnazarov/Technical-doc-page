@@ -1,3 +1,7 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/white-blurred-futuristic-technology-background_23-2148402775.jpg?size=626&ext=jpg);
+    opacity: 1;
+}
 .manbody {
     display: grid;
     grid-template-columns: minmax(300px, auto) 1fr;
@@ -22,6 +26,13 @@ header {
     font-size: 1.2em; 
     font-weight: bold;
 }
+img {
+    float: right;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-bottom: auto;
+    margin-top: 10px;
+}
 @media screen and (max-width: 750px) {
     .manbody {
         grid-template-columns: 1fr;
@@ -30,4 +41,11 @@ header {
     #navbar {
         position: inherit;
     }
+}
+.imag {
+    float: left;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: auto;
+    margin-top: 10px;
 }
